@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: burlywood; */
+
+}
+
+#nav{
+    height: 90px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.cir{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+#nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav2 h4{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+#nav h4 span{
+    color: rgb(166, 166, 172);
+    margin-left: 20px;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 80px;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 0 60px;
+    
+
+}
+
+#nav-part2 h3{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#content{
+    height: calc(100% - 170px);
+    width: 100%;
+    /* background-color: rgb(155, 149, 149); */
+}
+
+#text{
+    height: 40%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+   
+}
+#text::-webkit-scrollbar{
+    background-color: transparent;
+       height: 6px;
+       
+}
+#text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    cursor: pointer;
+   
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(180, 37, 37); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.elem h1{
+    font-family: voyage;
+    font-size: 100px;
+    font-weight: 500;
+
+}
+
+#image{
+    height: 60%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+#image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+#image::-webkit-scrollbar{
+   display: none;
+}
